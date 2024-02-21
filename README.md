@@ -29,6 +29,9 @@ OPTIONAL: Go to devices menu top of the VM and inesert guest additions CD, go to
 
 Now we Setup Our IP adressing and routing in newtork/adapter options. Label each to prevent confusion from internet and internal connections. Give internal IPv4 a manual configuration as such
 <img src="https://imgur.com/vi3SVLi.gif"/>
+
+INSTALL AD DS (active Directory domain Services) and do post delpoyment configuration for your needs and create a domain. Computer will restart 
+<img src="https://imgur.com/w3w9OT0.gif"/>
 <!--
  ```diff
 - text in red
