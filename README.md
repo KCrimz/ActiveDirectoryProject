@@ -23,8 +23,6 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 
 <p> Create Virtual Machine with windows 10 OS with the following parameters and settings. Install windows server 2019 On this machine <p/>
-<p>![Imgur Image](https://imgur.com/XfY5mxy.jpg)
-</p>
 
 
 <!--
