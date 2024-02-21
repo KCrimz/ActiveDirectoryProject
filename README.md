@@ -37,7 +37,7 @@ Now we Setup Our IP adressing and routing in newtork/adapter options. Label each
 <img src="https://imgur.com/TVWt2wD.gif"/>
 
 Now we are going to install NAS/RAT to allow internet connectivity to client through the Domain controller
-<img src="https://imgur.com/WNtuFj7.gif"/>
+<img src="https://imgur.com/InALAaw.gif"/>
 <!--
  ```diff
 - text in red
