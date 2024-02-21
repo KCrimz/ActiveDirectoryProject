@@ -36,8 +36,8 @@ Now we Setup Our IP adressing and routing in newtork/adapter options. Label each
 <p>CREATE a Dedicated ADMIN account for your Domain to better harden security. A speaerate organization Unit helps and folloow your companies naming Schema ( I do password never expires for the puposses of this Project haha). Add used to your DOMAIN ADMINS. Login to this account on windows </p>
 <img src="https://imgur.com/TVWt2wD.gif"/>
 
-Now we are going to install NAS/RAT to allow internet connectivity to client through the Domain controller
-<img src="https://imgur.com/InALAaw.gif"/>
+Now we are going to install NAS/RAT to allow internet connectivity to client through the Domain controller. Setup routing and remote access though your Internet NAT we previously labeled with our internal connection for your DC local
+<img src="https://imgur.com/InALAaw.gif"/> <img src="https://imgur.com/J8rSWag.gif"/>
 <!--
  ```diff
 - text in red
