@@ -33,8 +33,11 @@ Now we Setup Our IP adressing and routing in newtork/adapter options. Label each
 <p>INSTALL AD DS (active Directory domain Services) and do post delpoyment configuration for your needs and create a domain. Computer will restart</p> 
 <img src="https://imgur.com/w3w9OT0.gif"/>
 
-CREATE a Dedicated ADMIN account for your Domain to better harden security. A speaerate organization Unit helps and folloow your companies naming Schema ( I do password never expires for the puposses of this Project haha). Add used to your DOMAIN ADMINS
+<p>CREATE a Dedicated ADMIN account for your Domain to better harden security. A speaerate organization Unit helps and folloow your companies naming Schema ( I do password never expires for the puposses of this Project haha). Add used to your DOMAIN ADMINS. Login to this account on windows </p>
 <img src="https://imgur.com/TVWt2wD.gif"/>
+
+Now we are going to install NAS/RAT to allow internet connectivity to client through the Domain controller
+<img src="https://imgur.com/WNtuFj7.gif"/>
 <!--
  ```diff
 - text in red
