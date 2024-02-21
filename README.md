@@ -17,9 +17,9 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <h2>Walk Through:</h2>
 
-Download oracle box virtualization: https://www.virtualbox.org/wiki/Downloads
-Download Windows server 2019 ISO: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
-Download Windowns 10 ISO: https://www.microsoft.com/en-us/software-download/windows10
+<p> Download oracle box virtualization: https://www.virtualbox.org/wiki/Downloads </p>
+<p> Download Windows server 2019 ISO: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019 </p>
+<p> Download Windowns 10 ISO: https://www.microsoft.com/en-us/software-download/windows10 </p>
 
 
 <!--
