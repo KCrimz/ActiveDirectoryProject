@@ -22,6 +22,10 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <p> Download Windowns 10 ISO: https://www.microsoft.com/en-us/software-download/windows10 </p>
 
 
+<p> Create Virtual Machine with windows 10 OS with the following parameters and settings. Install windows server 2019 On this machine <p/>
+<p>https://imgur.com/XfY5mxy</p>
+
+
 <!--
  ```diff
 - text in red
