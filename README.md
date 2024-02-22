@@ -43,7 +43,7 @@ Now we are going to install NAS/RAT to allow internet connectivity to client thr
 AUTHORIZE the DHCP server. Configure local server to use internet connection for this lab. DONT recommend in an live enviornement on DC</p>
 <img src="https://imgur.com/6BsGNXp.gif"/>
 
-<p>ADD users to AD DS (for the puroses of this lab I used a script with a name generated file) then we can begin to setup the Client PC. Create a new VM with the windows 10 ISO following configurations shown and an internal NIC. You ondt have to use a product key for this lab and make sure to use windows 10 PRO to be able to join the DC. Choose the Option "I dont ahve internet" when prompted during setup as we will address that after</p>
+<p>ADD users to AD DS (for the puroses of this lab I used a script with a name generated file) then we can begin to setup the Client PC. Create a new VM with the windows 10 ISO following configurations shown and an internal NIC. You dont have to use a product key for this lab and make sure to use windows 10 PRO to be able to join the DC. Choose the Option "I dont ahve internet" when prompted during setup as we will address that after</p>
 <img src="https://imgur.com/oHBPb6g.gif"/>
 
 
