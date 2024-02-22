@@ -51,6 +51,8 @@ AUTHORIZE the DHCP server. Configure local server to use internet connection for
 Verify after setup and user creation that you have Internet connectivity. Go to Command line (CMD) and type "ipconfig /all" Verify the Defauly gateway Dhcp server and DNS server are all in good order
 <img src="https://imgur.com/O2gdxzA.gif"/>
 
+Rename the computer approrpaitely in rename PC advanced so we can also join the domain in my case "mydomain.com" and login with proger credentials. 
+<img src="https://imgur.com/S8OwRlh.gif"/>
 
 <!--
  ```diff
