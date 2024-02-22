@@ -17,7 +17,7 @@ THis project focuses on using virtual machines to create a Domain Controller and
 
 <h2>Skills:</h2>     
 -Virtual machine setup and configuration
--IP , DHCP, and DNS netowrking configurations
+-IP , DHCP, and DNS netowrking configurations for individual devices
 -Troubleshooting for each
 -small corporate esk layout
 -AD DS Basic setup and adding clients to Domain
@@ -60,6 +60,8 @@ Rename the computer approrpaitely in rename PC advanced so we can also join the 
 
 We can now see on the server VM that in DHCP the CLient 1 computer now has a Lease in DHCP and that that machine has also been added to active directory so users may have acess to it. Try adding a new or using an existing use in AD DS to log into the newly connected Windows 10 computer EZ
 <img src="https://imgur.com/PHiyisf.gif"/>
+
+LAB FINISHED!!!
 <!--
  ```diff
 - text in red
