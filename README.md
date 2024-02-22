@@ -45,15 +45,17 @@ Now we are going to install NAS/RAT to allow internet connectivity to client thr
 AUTHORIZE the DHCP server. Configure local server to use internet connection for this lab. DONT recommend in an live enviornement on DC Double check that your Server option in IPv4 hs a routher with the DC IP adress of 172.16.0.1 as it handles these connections</p>
 <img src="https://imgur.com/6BsGNXp.gif"/>
 
-<p>ADD users to AD DS (for the puroses of this lab I used a script with a name generated file) then we can begin to setup the Client PC. Create a new VM with the windows 10 ISO following configurations shown and an internal NIC. You dont have to use a product key for this lab and make sure to use windows 10 PRO to be able to join the DC. Choose the Option "I dont ahve internet" when prompted during setup as we will address that after. Continue with limited setup ( unless you want to re create a whole Miscorsoft account haha )</p>
+<p>ADD users to AD DS (for the puroses of this lab I used a script with a name generated file) then we can begin to setup the Client PC. Create a new VM with the windows 10 ISO following configurations shown and an internal NIC. You dont have to use a product key for this lab and make sure to use windows 10 PRO to be able to join the DC. Choose the Option "I dont have internet" when prompted during setup as we will address that after. Continue with limited setup ( unless you want to re create a whole Miscorsoft account haha )</p>
 <img src="https://imgur.com/oHBPb6g.gif"/>
 
-Verify after setup and user creation that you have Internet connectivity. Go to Command line (CMD) and type "ipconfig /all" Verify the Defauly gateway Dhcp server and DNS server are all in good order
+Verify after setup and user creation that you have Internet connectivity. Go to Command line (CMD) and type "ipconfig /all" Verify the Defauly gateway DHCP server and DNS server are all in good order
 <img src="https://imgur.com/O2gdxzA.gif"/>
 
-Rename the computer approrpaitely in rename PC advanced so we can also join the domain in my case "mydomain.com" and login with proger credentials. 
+Rename the computer approrpaitely in rename PC advanced so we can also join the domain in my case "mydomain.com" and login with proger credentials. Computer will restart upon confirming
 <img src="https://imgur.com/S8OwRlh.gif"/>
 
+We can now see by on the server VM that in DHCP the CLient 1 computer now has a Lease in DHCP and that that machine has also been added to active directory so users may have acess to it
+<img src="https://imgur.com/PHiyisf.gif"/>
 <!--
  ```diff
 - text in red
