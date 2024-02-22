@@ -42,7 +42,7 @@ Now we are going to install NAS/RAT to allow internet connectivity to client thr
 <img src="https://imgur.com/InALAaw.gif"/> <img src="https://imgur.com/J8rSWag.gif"/>
 
 <p>SETUP and install DHCP server on the domain controller So client can get an IP address to utilize the internet connection. Assign a scope of 172.16.0.100-200 mask of 24 and gateway 172.16.0.1 (DC IP address) and lease duration based on what your limits are on connections
-AUTHORIZE the DHCP server. Configure local server to use internet connection for this lab. DONT recommend in an live enviornement on DC</p>
+AUTHORIZE the DHCP server. Configure local server to use internet connection for this lab. DONT recommend in an live enviornement on DC Double check that your Server option in IPv4 hs a routher with the DC IP adress of 172.16.0.1 as it handles these connections</p>
 <img src="https://imgur.com/6BsGNXp.gif"/>
 
 <p>ADD users to AD DS (for the puroses of this lab I used a script with a name generated file) then we can begin to setup the Client PC. Create a new VM with the windows 10 ISO following configurations shown and an internal NIC. You dont have to use a product key for this lab and make sure to use windows 10 PRO to be able to join the DC. Choose the Option "I dont ahve internet" when prompted during setup as we will address that after. Continue with limited setup ( unless you want to re create a whole Miscorsoft account haha )</p>
