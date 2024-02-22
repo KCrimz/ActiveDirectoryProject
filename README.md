@@ -48,7 +48,8 @@ AUTHORIZE the DHCP server. Configure local server to use internet connection for
 <p>ADD users to AD DS (for the puroses of this lab I used a script with a name generated file) then we can begin to setup the Client PC. Create a new VM with the windows 10 ISO following configurations shown and an internal NIC. You dont have to use a product key for this lab and make sure to use windows 10 PRO to be able to join the DC. Choose the Option "I dont ahve internet" when prompted during setup as we will address that after. Continue with limited setup ( unless you want to re create a whole Miscorsoft account haha )</p>
 <img src="https://imgur.com/oHBPb6g.gif"/>
 
-Verify after setup and user creation that you have Internet connectivity. Go to Command line (CMD) and type "ipconfig /all"
+Verify after setup and user creation that you have Internet connectivity. Go to Command line (CMD) and type "ipconfig /all" Verify the Defauly gateway Dhcp server and DNS server are all in good order
+<img src="https://imgur.com/O2gdxzA.gif"/>
 
 
 <!--
