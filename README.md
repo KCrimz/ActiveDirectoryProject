@@ -15,7 +15,7 @@ THis project focuses on using virtual machines to create a Domain Controller and
 - <b>Windows 10</b>
 - <b>Windows 2019 Server</b>
 
-- <h2>Skills:</h2>     
+<h2>Skills:</h2>     
 
 <h2>Walk Through:</h2>
 
