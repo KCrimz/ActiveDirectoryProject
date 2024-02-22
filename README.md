@@ -19,6 +19,7 @@ THis project focuses on using virtual machines to create a Domain Controller and
 -Virtual machine setup and configuration
 -IP , DHCP, and DNS netowrking configurations
 -Troubleshooting for each
+-small corporate esk layout
 -AD DS Basic setup and adding clients to Domain
 <h2>Walk Through:</h2>
 
