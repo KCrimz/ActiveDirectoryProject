@@ -1,7 +1,7 @@
 <h1>Active Directory Project</h1>
 
 <h2>Description</h2>
-THis project focuses on using virtual machines to create a Domain Controller and client computer newtork. We will install and create both machines along with configuring AD DS (active Directory) while mkaing sure Internet and internal connections are given.
+THis project focuses on using virtual machines to create a Domain Controller and client computer newtork. We will install and create both machines along with configuring AD DS (active Directory) while making sure Internet and internal connections are given.
 <br />
 
 
@@ -16,7 +16,10 @@ THis project focuses on using virtual machines to create a Domain Controller and
 - <b>Windows 2019 Server</b>
 
 <h2>Skills:</h2>     
-
+-Virtual machine setup and configuration
+-IP , DHCP, and DNS netowrking configurations
+-Troubleshooting for each
+-AD DS Basic setup and adding clients to Domain
 <h2>Walk Through:</h2>
 
 <p> Download oracle box virtualization: https://www.virtualbox.org/wiki/Downloads </p>
