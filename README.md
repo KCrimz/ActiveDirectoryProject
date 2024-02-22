@@ -1,7 +1,7 @@
 <h1>Active Directory Project</h1>
 
 <h2>Description</h2>
-THis project focuses on using virtual machines to create a Domain Controller and client computer newtork. We will install and create both machines along with configuring AD DS (active Directory)
+THis project focuses on using virtual machines to create a Domain Controller and client computer newtork. We will install and create both machines along with configuring AD DS (active Directory) while mkaing sure Internet and internal connections are given.
 <br />
 
 
@@ -38,6 +38,10 @@ Now we Setup Our IP adressing and routing in newtork/adapter options. Label each
 
 Now we are going to install NAS/RAT to allow internet connectivity to client through the Domain controller. Setup routing and remote access though your Internet NAT we previously labeled with our internal connection for your DC local
 <img src="https://imgur.com/InALAaw.gif"/> <img src="https://imgur.com/J8rSWag.gif"/>
+
+<p>SETUP and install DHCP server on the domain controller So client can get an IP address to utilize the internet connection. Assign a scope of 172.16.0.100-200 mask of 24 and gateway 172.16.0.1 (DC IP address) and lease duration based on what your limits are on connections
+AUTHORIZE the DHCP server</p>
+<img src="https://imgur.com/6BsGNXp.gif"/>
 <!--
  ```diff
 - text in red
