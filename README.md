@@ -21,6 +21,7 @@ THis project focuses on using virtual machines to create a Domain Controller and
 -Troubleshooting for each
 -small corporate esk layout
 -AD DS Basic setup and adding clients to Domain
+
 <h2>Walk Through:</h2>
 
 <p> Download oracle box virtualization: https://www.virtualbox.org/wiki/Downloads </p>
