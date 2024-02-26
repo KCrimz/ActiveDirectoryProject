@@ -24,9 +24,9 @@ THis project focuses on using virtual machines to create a Domain Controller and
 
 <h2>Walk Through:</h2>
 
-<p> Download oracle box virtualization: https://www.virtualbox.org/wiki/Downloads </p>
+<p> Download/installoracle box virtualization: https://www.virtualbox.org/wiki/Downloads </p>
 <p> Download Windows server 2019 ISO: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019 </p>
-<p> Download Windowns 10 ISO: https://www.microsoft.com/en-us/software-download/windows10 </p>
+<p> Download Windows 10 ISO: https://www.microsoft.com/en-us/software-download/windows10 </p>
 
 
 <p> Create Virtual Machine with windows 10 OS with the following parameters and settings. Install windows server 2019 On this machine <p/>
