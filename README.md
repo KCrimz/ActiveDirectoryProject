@@ -56,7 +56,7 @@ AUTHORIZE the DHCP server. Configure local server to use internet connection for
 Verify after setup and user creation that you have Internet connectivity. Go to Command line (CMD) and type "ipconfig /all" Verify the Defauly gateway DHCP server and DNS server are all in good order
 <img src="https://imgur.com/O2gdxzA.gif"/>
 
-Rename the computer approrpaitely in rename PC advanced so we can also join the domain in my case "mydomain.com" and login with proger credentials. Computer will restart upon confirming
+Rename the computer appropriately in rename PC advanced so we can also join the domain in my case "mydomain.com" and login with proger credentials. Computer will restart upon confirming
 <img src="https://imgur.com/S8OwRlh.gif"/>
 
 We can now see on the server VM that in DHCP the CLient 1 computer now has a Lease in DHCP and that that machine has also been added to active directory so users may have acess to it. Try adding a new or using an existing use in AD DS to log into the newly connected Windows 10 computer EZ
