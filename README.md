@@ -59,7 +59,7 @@ Verify after setup and user creation that you have Internet connectivity. Go to 
 Rename the computer appropriately in rename PC advanced so we can also join the domain in my case "mydomain.com" and login with proger credentials. Computer will restart upon confirming
 <img src="https://imgur.com/S8OwRlh.gif"/>
 
-We can now see on the server VM that in DHCP the CLient 1 computer now has a Lease in DHCP and that that machine has also been added to active directory so users may have acess to it. Try adding a new or using an existing use in AD DS to log into the newly connected Windows 10 computer EZ
+We can now see on the server VM that in DHCP the CLient 1 computer now has a Lease in DHCP and that that machine has also been added to active directory so users may have acess to it. Try adding a new or using an existing user in AD DS to log into the newly connected Windows 10 computer EZ
 <img src="https://imgur.com/PHiyisf.gif"/>
 
 LAB FINISHED!!!
